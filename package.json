@@ -1,0 +1,12 @@
+{
+  "name": "akmal-frontend",
+  "private": true,
+  "workspaces": [
+    "Turmeric_WholeSale"
+  ],
+  "scripts": {
+    "build": "npm --workspace=Turmeric_WholeSale run build",
+    "dev": "npm --workspace=Turmeric_WholeSale run dev",
+    "lint": "npm --workspace=Turmeric_WholeSale run lint"
+  }
+}
